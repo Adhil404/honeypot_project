@@ -1,0 +1,35 @@
+{
+  "services": [
+    {"name": "HTTP Shop",   "port": 8080, "protocol": "http",  "enabled": true},
+    {"name": "Admin Panel", "port": 8888, "protocol": "http",  "enabled": true},
+    {"name": "FTP Server",  "port": 2121, "protocol": "ftp",   "enabled": true},
+    {"name": "SSH Server",  "port": 2222, "protocol": "ssh",   "enabled": true},
+    {"name": "MySQL DB",    "port": 3307, "protocol": "mysql", "enabled": true},
+    {"name": "Payment API", "port": 9090, "protocol": "http",  "enabled": true}
+  ],
+  "dashboard": {
+    "port": 5000,
+    "host": "127.0.0.1",
+    "enabled": true
+  },
+  "logging": {
+    "log_dir": "logs",
+    "max_bytes": 5242880,
+    "backup_count": 10,
+    "geo_lookup": false
+  },
+  "threat_intel": {
+    "rate_limit_window": 60,
+    "rate_limit_max": 10,
+    "blacklist_file": "config/blacklist.txt",
+    "threat_score_weights": {
+      "repeat_visit":    10,
+      "rapid_requests":  25,
+      "sql_injection":   40,
+      "xss_attempt":     35,
+      "path_traversal":  40,
+      "credential_dump": 50,
+      "scanner_ua":      20
+    }
+  }
+}

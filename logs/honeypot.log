@@ -1,0 +1,63 @@
+2026-04-28 14:40:26,230 [INFO] http_honeypot — HTTP honeypot 'HTTP Shop' listening on 0.0.0.0:8080
+2026-04-28 14:40:27,147 [INFO] http_honeypot — HTTP honeypot 'Admin Panel' listening on 0.0.0.0:8888
+2026-04-28 14:40:27,150 [INFO] tcp_honeypot — TCP honeypot 'FTP Server' (FTP) listening on 0.0.0.0:2121
+2026-04-28 14:40:27,150 [INFO] tcp_honeypot — TCP honeypot 'SSH Server' (SSH) listening on 0.0.0.0:2222
+2026-04-28 14:40:27,150 [INFO] tcp_honeypot — TCP honeypot 'MySQL DB' (MYSQL) listening on 0.0.0.0:3307
+2026-04-28 14:40:27,983 [INFO] http_honeypot — HTTP honeypot 'Payment API' listening on 0.0.0.0:9090
+2026-04-28 14:40:27,991 [INFO] dashboard — Dashboard running → http://127.0.0.1:5000
+2026-04-28 14:40:27,995 [INFO] orchestrator — All services started. 7 threads running.
+2026-04-28 14:40:27,997 [INFO] main — Web dashboard → http://127.0.0.1:5000
+2026-04-28 14:40:28,003 [INFO] main — HoneyShield is running. Press Ctrl+C to stop.
+2026-04-28 14:42:44,562 [INFO] main — Shutdown signal received. Stopping all services...
+2026-04-28 14:42:44,571 [INFO] orchestrator — Stopping orchestrator (daemon threads will exit with process).
+2026-04-28 14:42:44,574 [INFO] main — HoneyShield stopped cleanly.
+2026-04-28 14:43:06,862 [INFO] http_honeypot — HTTP honeypot 'HTTP Shop' listening on 0.0.0.0:8080
+2026-04-28 14:43:07,721 [INFO] http_honeypot — HTTP honeypot 'Admin Panel' listening on 0.0.0.0:8888
+2026-04-28 14:43:07,728 [INFO] tcp_honeypot — TCP honeypot 'FTP Server' (FTP) listening on 0.0.0.0:2121
+2026-04-28 14:43:07,728 [INFO] tcp_honeypot — TCP honeypot 'SSH Server' (SSH) listening on 0.0.0.0:2222
+2026-04-28 14:43:07,728 [INFO] tcp_honeypot — TCP honeypot 'MySQL DB' (MYSQL) listening on 0.0.0.0:3307
+2026-04-28 14:43:08,568 [INFO] http_honeypot — HTTP honeypot 'Payment API' listening on 0.0.0.0:9090
+2026-04-28 14:43:08,576 [INFO] dashboard — Dashboard running → http://127.0.0.1:5000
+2026-04-28 14:43:08,580 [INFO] orchestrator — All services started. 7 threads running.
+2026-04-28 14:43:08,585 [INFO] main — Web dashboard → http://127.0.0.1:5000
+2026-04-28 14:43:08,585 [INFO] main — HoneyShield is running. Press Ctrl+C to stop.
+2026-04-28 14:44:14,610 [WARNING] http_honeypot — [LOW] 127.0.0.1 GET / score=0 tags=[]
+2026-04-28 14:44:15,663 [WARNING] http_honeypot — [LOW] 127.0.0.1 GET /favicon.ico score=10 tags=['repeat_visitor(2x)']
+2026-04-28 14:45:36,326 [WARNING] http_honeypot — [LOW] 127.0.0.1 GET /cart score=10 tags=['repeat_visitor(3x)']
+2026-04-28 14:46:58,426 [WARNING] http_honeypot — [MEDIUM] 127.0.0.1 GET /admin score=25 tags=['repeat_visitor(4x)', 'sensitive_path_probe']
+2026-04-28 14:47:16,093 [WARNING] http_honeypot — [MEDIUM] 127.0.0.1 GET /admin score=25 tags=['repeat_visitor(5x)', 'sensitive_path_probe']
+2026-04-28 14:47:18,009 [WARNING] http_honeypot — [MEDIUM] 127.0.0.1 GET /admin/users score=25 tags=['repeat_visitor(6x)', 'sensitive_path_probe']
+2026-04-28 14:47:21,977 [WARNING] http_honeypot — [MEDIUM] 127.0.0.1 GET /admin/orders score=25 tags=['repeat_visitor(7x)', 'sensitive_path_probe']
+2026-04-28 14:48:05,680 [WARNING] http_honeypot — [MEDIUM] 127.0.0.1 GET /.env score=25 tags=['repeat_visitor(8x)', 'sensitive_path_probe']
+2026-04-28 14:48:36,619 [WARNING] http_honeypot — [MEDIUM] 127.0.0.1 GET /api/keys score=25 tags=['repeat_visitor(9x)', 'sensitive_path_probe']
+2026-04-28 14:48:37,517 [WARNING] http_honeypot — [LOW] 127.0.0.1 GET /favicon.ico score=10 tags=['repeat_visitor(10x)']
+2026-04-28 14:50:57,070 [WARNING] http_honeypot — [HIGH] 127.0.0.1 GET /search?q=1%20UNION%20SELECT%20*%20FROM%20users-- score=50 tags=['repeat_visitor(11x)', 'sql_injection']
+2026-04-28 14:51:04,654 [WARNING] http_honeypot — [LOW] 127.0.0.1 GET / score=10 tags=['repeat_visitor(12x)']
+2026-04-28 14:51:58,477 [WARNING] http_honeypot — [HIGH] 127.0.0.1 GET /etc/passwd score=50 tags=['repeat_visitor(13x)', 'path_traversal']
+2026-04-28 14:52:02,474 [WARNING] http_honeypot — [LOW] 127.0.0.1 GET / score=10 tags=['repeat_visitor(14x)']
+2026-04-28 16:46:01,551 [INFO] http_honeypot — HTTP honeypot 'HTTP Shop' listening on 0.0.0.0:8080
+2026-04-28 16:46:01,551 [INFO] http_honeypot — HTTP honeypot 'Admin Panel' listening on 0.0.0.0:8888
+2026-04-28 16:46:01,570 [INFO] tcp_honeypot — TCP honeypot 'FTP Server' (FTP) listening on 0.0.0.0:2121
+2026-04-28 16:46:01,570 [INFO] tcp_honeypot — TCP honeypot 'SSH Server' (SSH) listening on 0.0.0.0:2222
+2026-04-28 16:46:01,572 [INFO] tcp_honeypot — TCP honeypot 'MySQL DB' (MYSQL) listening on 0.0.0.0:3307
+2026-04-28 16:46:01,574 [INFO] http_honeypot — HTTP honeypot 'Payment API' listening on 0.0.0.0:9090
+2026-04-28 16:46:01,581 [INFO] dashboard — Dashboard running → http://127.0.0.1:5000
+2026-04-28 16:46:01,586 [INFO] orchestrator — All services started. 7 threads running.
+2026-04-28 16:46:01,589 [INFO] main — Web dashboard → http://127.0.0.1:5000
+2026-04-28 16:46:01,593 [INFO] main — HoneyShield is running. Press Ctrl+C to stop.
+2026-04-28 16:47:23,651 [WARNING] http_honeypot — [LOW] 127.0.0.1 GET / score=0 tags=[]
+2026-04-28 16:50:20,942 [WARNING] http_honeypot — [MEDIUM] 127.0.0.1 GET /admin score=25 tags=['repeat_visitor(2x)', 'sensitive_path_probe']
+2026-04-28 16:51:13,557 [WARNING] http_honeypot — [LOW] 127.0.0.1 GET / score=10 tags=['repeat_visitor(3x)']
+2026-04-28 16:56:05,701 [WARNING] http_honeypot — [LOW] 127.0.0.1 GET /.well-known/appspecific/com.chrome.devtools.json score=10 tags=['repeat_visitor(4x)']
+2026-04-28 17:12:22,154 [WARNING] http_honeypot — [LOW] 127.0.0.1 GET / score=10 tags=['repeat_visitor(5x)']
+2026-04-28 17:13:27,714 [WARNING] http_honeypot — [LOW] 127.0.0.1 GET / score=10 tags=['repeat_visitor(6x)']
+2026-04-28 17:14:08,231 [WARNING] http_honeypot — [LOW] 127.0.0.1 GET /login score=10 tags=['repeat_visitor(7x)']
+2026-04-28 17:14:23,923 [WARNING] http_honeypot — [HIGH] 127.0.0.1 POST /login score=60 tags=['repeat_visitor(8x)', 'credential_stuffing_attempt']
+2026-04-28 17:14:27,441 [WARNING] http_honeypot — [LOW] 127.0.0.1 GET /reset score=10 tags=['repeat_visitor(9x)']
+2026-04-28 17:14:30,633 [WARNING] http_honeypot — [LOW] 127.0.0.1 GET / score=10 tags=['repeat_visitor(10x)']
+2026-04-28 17:14:33,383 [WARNING] http_honeypot — [LOW] 127.0.0.1 GET /cart score=10 tags=['repeat_visitor(11x)']
+2026-04-28 17:14:35,844 [WARNING] http_honeypot — [LOW] 127.0.0.1 GET / score=10 tags=['repeat_visitor(12x)']
+2026-04-28 17:14:37,796 [WARNING] http_honeypot — [LOW] 127.0.0.1 GET /products score=10 tags=['repeat_visitor(13x)']
+2026-04-28 17:14:39,365 [WARNING] http_honeypot — [LOW] 127.0.0.1 GET / score=10 tags=['repeat_visitor(14x)']
+2026-04-28 17:14:43,859 [WARNING] http_honeypot — [LOW] 127.0.0.1 GET /login score=10 tags=['repeat_visitor(15x)']
+2026-04-28 17:14:54,567 [WARNING] http_honeypot — [HIGH] 127.0.0.1 POST /login score=60 tags=['repeat_visitor(16x)', 'credential_stuffing_attempt']

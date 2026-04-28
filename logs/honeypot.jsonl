@@ -1,0 +1,63 @@
+{"ts": "2026-04-28T09:10:26.230693+00:00", "level": "INFO", "logger": "http_honeypot", "message": "HTTP honeypot 'HTTP Shop' listening on 0.0.0.0:8080"}
+{"ts": "2026-04-28T09:10:27.147215+00:00", "level": "INFO", "logger": "http_honeypot", "message": "HTTP honeypot 'Admin Panel' listening on 0.0.0.0:8888"}
+{"ts": "2026-04-28T09:10:27.150662+00:00", "level": "INFO", "logger": "tcp_honeypot", "message": "TCP honeypot 'FTP Server' (FTP) listening on 0.0.0.0:2121"}
+{"ts": "2026-04-28T09:10:27.152028+00:00", "level": "INFO", "logger": "tcp_honeypot", "message": "TCP honeypot 'SSH Server' (SSH) listening on 0.0.0.0:2222"}
+{"ts": "2026-04-28T09:10:27.154333+00:00", "level": "INFO", "logger": "tcp_honeypot", "message": "TCP honeypot 'MySQL DB' (MYSQL) listening on 0.0.0.0:3307"}
+{"ts": "2026-04-28T09:10:27.984702+00:00", "level": "INFO", "logger": "http_honeypot", "message": "HTTP honeypot 'Payment API' listening on 0.0.0.0:9090"}
+{"ts": "2026-04-28T09:10:27.991276+00:00", "level": "INFO", "logger": "dashboard", "message": "Dashboard running \u2192 http://127.0.0.1:5000"}
+{"ts": "2026-04-28T09:10:27.995750+00:00", "level": "INFO", "logger": "orchestrator", "message": "All services started. 7 threads running."}
+{"ts": "2026-04-28T09:10:27.998414+00:00", "level": "INFO", "logger": "main", "message": "Web dashboard \u2192 http://127.0.0.1:5000"}
+{"ts": "2026-04-28T09:10:28.003635+00:00", "level": "INFO", "logger": "main", "message": "HoneyShield is running. Press Ctrl+C to stop."}
+{"ts": "2026-04-28T09:12:44.565732+00:00", "level": "INFO", "logger": "main", "message": "Shutdown signal received. Stopping all services..."}
+{"ts": "2026-04-28T09:12:44.571936+00:00", "level": "INFO", "logger": "orchestrator", "message": "Stopping orchestrator (daemon threads will exit with process)."}
+{"ts": "2026-04-28T09:12:44.575846+00:00", "level": "INFO", "logger": "main", "message": "HoneyShield stopped cleanly."}
+{"ts": "2026-04-28T09:13:06.862749+00:00", "level": "INFO", "logger": "http_honeypot", "message": "HTTP honeypot 'HTTP Shop' listening on 0.0.0.0:8080"}
+{"ts": "2026-04-28T09:13:07.724204+00:00", "level": "INFO", "logger": "http_honeypot", "message": "HTTP honeypot 'Admin Panel' listening on 0.0.0.0:8888"}
+{"ts": "2026-04-28T09:13:07.728689+00:00", "level": "INFO", "logger": "tcp_honeypot", "message": "TCP honeypot 'FTP Server' (FTP) listening on 0.0.0.0:2121"}
+{"ts": "2026-04-28T09:13:07.728689+00:00", "level": "INFO", "logger": "tcp_honeypot", "message": "TCP honeypot 'SSH Server' (SSH) listening on 0.0.0.0:2222"}
+{"ts": "2026-04-28T09:13:07.737599+00:00", "level": "INFO", "logger": "tcp_honeypot", "message": "TCP honeypot 'MySQL DB' (MYSQL) listening on 0.0.0.0:3307"}
+{"ts": "2026-04-28T09:13:08.568863+00:00", "level": "INFO", "logger": "http_honeypot", "message": "HTTP honeypot 'Payment API' listening on 0.0.0.0:9090"}
+{"ts": "2026-04-28T09:13:08.580877+00:00", "level": "INFO", "logger": "dashboard", "message": "Dashboard running \u2192 http://127.0.0.1:5000"}
+{"ts": "2026-04-28T09:13:08.585004+00:00", "level": "INFO", "logger": "orchestrator", "message": "All services started. 7 threads running."}
+{"ts": "2026-04-28T09:13:08.585004+00:00", "level": "INFO", "logger": "main", "message": "Web dashboard \u2192 http://127.0.0.1:5000"}
+{"ts": "2026-04-28T09:13:08.593292+00:00", "level": "INFO", "logger": "main", "message": "HoneyShield is running. Press Ctrl+C to stop."}
+{"ts": "2026-04-28T09:14:14.610790+00:00", "level": "WARNING", "logger": "http_honeypot", "message": "[LOW] 127.0.0.1 GET / score=0 tags=[]"}
+{"ts": "2026-04-28T09:14:15.664433+00:00", "level": "WARNING", "logger": "http_honeypot", "message": "[LOW] 127.0.0.1 GET /favicon.ico score=10 tags=['repeat_visitor(2x)']"}
+{"ts": "2026-04-28T09:15:36.332544+00:00", "level": "WARNING", "logger": "http_honeypot", "message": "[LOW] 127.0.0.1 GET /cart score=10 tags=['repeat_visitor(3x)']"}
+{"ts": "2026-04-28T09:16:58.426561+00:00", "level": "WARNING", "logger": "http_honeypot", "message": "[MEDIUM] 127.0.0.1 GET /admin score=25 tags=['repeat_visitor(4x)', 'sensitive_path_probe']"}
+{"ts": "2026-04-28T09:17:16.094345+00:00", "level": "WARNING", "logger": "http_honeypot", "message": "[MEDIUM] 127.0.0.1 GET /admin score=25 tags=['repeat_visitor(5x)', 'sensitive_path_probe']"}
+{"ts": "2026-04-28T09:17:18.011550+00:00", "level": "WARNING", "logger": "http_honeypot", "message": "[MEDIUM] 127.0.0.1 GET /admin/users score=25 tags=['repeat_visitor(6x)', 'sensitive_path_probe']"}
+{"ts": "2026-04-28T09:17:21.979706+00:00", "level": "WARNING", "logger": "http_honeypot", "message": "[MEDIUM] 127.0.0.1 GET /admin/orders score=25 tags=['repeat_visitor(7x)', 'sensitive_path_probe']"}
+{"ts": "2026-04-28T09:18:05.680351+00:00", "level": "WARNING", "logger": "http_honeypot", "message": "[MEDIUM] 127.0.0.1 GET /.env score=25 tags=['repeat_visitor(8x)', 'sensitive_path_probe']"}
+{"ts": "2026-04-28T09:18:36.619646+00:00", "level": "WARNING", "logger": "http_honeypot", "message": "[MEDIUM] 127.0.0.1 GET /api/keys score=25 tags=['repeat_visitor(9x)', 'sensitive_path_probe']"}
+{"ts": "2026-04-28T09:18:37.519645+00:00", "level": "WARNING", "logger": "http_honeypot", "message": "[LOW] 127.0.0.1 GET /favicon.ico score=10 tags=['repeat_visitor(10x)']"}
+{"ts": "2026-04-28T09:20:57.071329+00:00", "level": "WARNING", "logger": "http_honeypot", "message": "[HIGH] 127.0.0.1 GET /search?q=1%20UNION%20SELECT%20*%20FROM%20users-- score=50 tags=['repeat_visitor(11x)', 'sql_injection']"}
+{"ts": "2026-04-28T09:21:04.654300+00:00", "level": "WARNING", "logger": "http_honeypot", "message": "[LOW] 127.0.0.1 GET / score=10 tags=['repeat_visitor(12x)']"}
+{"ts": "2026-04-28T09:21:58.481701+00:00", "level": "WARNING", "logger": "http_honeypot", "message": "[HIGH] 127.0.0.1 GET /etc/passwd score=50 tags=['repeat_visitor(13x)', 'path_traversal']"}
+{"ts": "2026-04-28T09:22:02.476790+00:00", "level": "WARNING", "logger": "http_honeypot", "message": "[LOW] 127.0.0.1 GET / score=10 tags=['repeat_visitor(14x)']"}
+{"ts": "2026-04-28T11:16:01.551215+00:00", "level": "INFO", "logger": "http_honeypot", "message": "HTTP honeypot 'HTTP Shop' listening on 0.0.0.0:8080"}
+{"ts": "2026-04-28T11:16:01.566592+00:00", "level": "INFO", "logger": "http_honeypot", "message": "HTTP honeypot 'Admin Panel' listening on 0.0.0.0:8888"}
+{"ts": "2026-04-28T11:16:01.571688+00:00", "level": "INFO", "logger": "tcp_honeypot", "message": "TCP honeypot 'FTP Server' (FTP) listening on 0.0.0.0:2121"}
+{"ts": "2026-04-28T11:16:01.574688+00:00", "level": "INFO", "logger": "tcp_honeypot", "message": "TCP honeypot 'SSH Server' (SSH) listening on 0.0.0.0:2222"}
+{"ts": "2026-04-28T11:16:01.574688+00:00", "level": "INFO", "logger": "http_honeypot", "message": "HTTP honeypot 'Payment API' listening on 0.0.0.0:9090"}
+{"ts": "2026-04-28T11:16:01.576721+00:00", "level": "INFO", "logger": "tcp_honeypot", "message": "TCP honeypot 'MySQL DB' (MYSQL) listening on 0.0.0.0:3307"}
+{"ts": "2026-04-28T11:16:01.583735+00:00", "level": "INFO", "logger": "dashboard", "message": "Dashboard running \u2192 http://127.0.0.1:5000"}
+{"ts": "2026-04-28T11:16:01.586183+00:00", "level": "INFO", "logger": "orchestrator", "message": "All services started. 7 threads running."}
+{"ts": "2026-04-28T11:16:01.591881+00:00", "level": "INFO", "logger": "main", "message": "Web dashboard \u2192 http://127.0.0.1:5000"}
+{"ts": "2026-04-28T11:16:01.593908+00:00", "level": "INFO", "logger": "main", "message": "HoneyShield is running. Press Ctrl+C to stop."}
+{"ts": "2026-04-28T11:17:23.652513+00:00", "level": "WARNING", "logger": "http_honeypot", "message": "[LOW] 127.0.0.1 GET / score=0 tags=[]"}
+{"ts": "2026-04-28T11:20:20.944658+00:00", "level": "WARNING", "logger": "http_honeypot", "message": "[MEDIUM] 127.0.0.1 GET /admin score=25 tags=['repeat_visitor(2x)', 'sensitive_path_probe']"}
+{"ts": "2026-04-28T11:21:13.557198+00:00", "level": "WARNING", "logger": "http_honeypot", "message": "[LOW] 127.0.0.1 GET / score=10 tags=['repeat_visitor(3x)']"}
+{"ts": "2026-04-28T11:26:05.703791+00:00", "level": "WARNING", "logger": "http_honeypot", "message": "[LOW] 127.0.0.1 GET /.well-known/appspecific/com.chrome.devtools.json score=10 tags=['repeat_visitor(4x)']"}
+{"ts": "2026-04-28T11:42:22.196515+00:00", "level": "WARNING", "logger": "http_honeypot", "message": "[LOW] 127.0.0.1 GET / score=10 tags=['repeat_visitor(5x)']"}
+{"ts": "2026-04-28T11:43:27.722043+00:00", "level": "WARNING", "logger": "http_honeypot", "message": "[LOW] 127.0.0.1 GET / score=10 tags=['repeat_visitor(6x)']"}
+{"ts": "2026-04-28T11:44:08.231137+00:00", "level": "WARNING", "logger": "http_honeypot", "message": "[LOW] 127.0.0.1 GET /login score=10 tags=['repeat_visitor(7x)']"}
+{"ts": "2026-04-28T11:44:23.923480+00:00", "level": "WARNING", "logger": "http_honeypot", "message": "[HIGH] 127.0.0.1 POST /login score=60 tags=['repeat_visitor(8x)', 'credential_stuffing_attempt']"}
+{"ts": "2026-04-28T11:44:27.441523+00:00", "level": "WARNING", "logger": "http_honeypot", "message": "[LOW] 127.0.0.1 GET /reset score=10 tags=['repeat_visitor(9x)']"}
+{"ts": "2026-04-28T11:44:30.641837+00:00", "level": "WARNING", "logger": "http_honeypot", "message": "[LOW] 127.0.0.1 GET / score=10 tags=['repeat_visitor(10x)']"}
+{"ts": "2026-04-28T11:44:33.399854+00:00", "level": "WARNING", "logger": "http_honeypot", "message": "[LOW] 127.0.0.1 GET /cart score=10 tags=['repeat_visitor(11x)']"}
+{"ts": "2026-04-28T11:44:35.844988+00:00", "level": "WARNING", "logger": "http_honeypot", "message": "[LOW] 127.0.0.1 GET / score=10 tags=['repeat_visitor(12x)']"}
+{"ts": "2026-04-28T11:44:37.796046+00:00", "level": "WARNING", "logger": "http_honeypot", "message": "[LOW] 127.0.0.1 GET /products score=10 tags=['repeat_visitor(13x)']"}
+{"ts": "2026-04-28T11:44:39.373295+00:00", "level": "WARNING", "logger": "http_honeypot", "message": "[LOW] 127.0.0.1 GET / score=10 tags=['repeat_visitor(14x)']"}
+{"ts": "2026-04-28T11:44:43.859383+00:00", "level": "WARNING", "logger": "http_honeypot", "message": "[LOW] 127.0.0.1 GET /login score=10 tags=['repeat_visitor(15x)']"}
+{"ts": "2026-04-28T11:44:54.567605+00:00", "level": "WARNING", "logger": "http_honeypot", "message": "[HIGH] 127.0.0.1 POST /login score=60 tags=['repeat_visitor(16x)', 'credential_stuffing_attempt']"}
